@@ -26,7 +26,7 @@ path = input("left or right")
 if path == "left":
     path = input("wait or swim")
     if path == "wait":
-        path = input("slect a door color (red , blue , yellow)")
+        path = input("slect a door color (red , blue , yellow-)")
         if path == "yellow":
             print("You Win...")
         elif path == "red":
